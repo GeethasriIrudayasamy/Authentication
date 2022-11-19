@@ -18,7 +18,6 @@ export const AuthContextProvider = (props) => {
 
     const logoutHandler = () => {
         setToken(null);
-        alert("Successfully logged out :)");
     };
     const contextValue = {
         token: token,
